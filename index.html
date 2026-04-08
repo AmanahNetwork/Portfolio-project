@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Azmat Parimoo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span>.DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">
+                <img src="https://ui-avatars.com/api/?name=Mohammad+Azmat&background=10b981&color=fff&size=150" alt="Mohammad Azmat Parimoo">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Mohammad Azmat Parimoo</span></h1>
+            <p>B.Tech CSE Student & Full-Stack Developer</p>
+            <div class="hero-btns">
+                <button class="primary-btn" id="hireMeBtn">Hire Me</button>
+                <button class="secondary-btn" onclick="window.location.href='#projects'">View Work</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <i class="fas fa-graduation-cap icon"></i>
+                <h3>Education</h3>
+                <p><strong>B.Tech in Computer Science</strong></p>
+                <p>PTU University | 2024 - 2028</p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-code icon"></i>
+                <h3>Technical Skills</h3>
+                <div class="skills-tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>React</span><span>MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Fix-It Board</h3>
+                    <p>A community barter system for local neighborhood help and repair requests.</p>
+                    <div class="project-btns">
+                        <a href="#" class="card-btn">Live Demo</a>
+                        <a href="https://github.com/AmanahNetwork/ComunityRequestBoard-Project.git" class="card-btn outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>AmanahNetwork</h3>
+                    <p>Full-stack donation platform with integrated payment gateways and email systems.</p>
+                    <div class="project-btns">
+                        <a href="https://amanahnetwork.onrender.com" class="card-btn">Live Demo</a>
+                        <a href="https://github.com/AmanahNetwork/AmanahNetwork.git" class="card-btn outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, responsive portfolio built with glassmorphism UI principles.</p>
+                    <div class="project-btns">
+                        <a href="#" class="card-btn">Live Demo</a>
+                        <a href="#" class="card-btn outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" id="portfolioForm">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
